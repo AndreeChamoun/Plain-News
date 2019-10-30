@@ -1,6 +1,15 @@
-# **Plain News**
+# **The Leek of the week**
 
-First PHP assignment 
+My first PHP assignment at Yrgo.
+Inspired by The Onion articles.
 
 <br>
-<img src="https://steamuserimages-a.akamaihd.net/ugc/779613284192995128/4B7B4ADFDB06B38D557C33BEF9B64398B82D1470/?fbclid=IwAR3-4bEbE9toKBMsmpgqbzjqafpbAn4TkUi_gO_gKYohGEVWeMEa0KgAkRA" width="100%">
+<img src="https://steamuserimages-a.akamaihd.net/ugc/779613284193040286/F9C38546B5B658C5F381CCD5E62AC24472D5A6D2/" width="100%">
+
+## Built with:
+PHP
+JavaScript
+CSS
+HTML
+
+

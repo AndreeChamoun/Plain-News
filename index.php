@@ -21,7 +21,7 @@ require __DIR__ . '/functions.php';
     <main class="main-content">
         <nav>
             <p class="today_date">
-            <h1>Plain News</h1>
+            <h1>The Leek of the Week</h1>
             </p class="news_title"> Totally real news site with real news
         </nav>
 
@@ -36,7 +36,10 @@ require __DIR__ . '/functions.php';
                 $authorImage = $authors[$article['authorId']]['authimage'];                        $published = $article["published"];
                 $likes = $article["likes"];
             ?>
-        
+            
+        <article id="<?php echo $article; ?>">
+        <h2><?php echo $title; ?> </h2>
+        </article>
 
             <?php endforeach ?>
         </section>

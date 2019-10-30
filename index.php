@@ -12,7 +12,7 @@ require __DIR__ . '/functions.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Plain News</title>
+    <title>The Leek of the Week</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="favicon" href="noun_news_1322437.png" type="image/png">

@@ -7,7 +7,7 @@ Inspired by The Onion articles.
 <img src="https://steamuserimages-a.akamaihd.net/ugc/779613284193040286/F9C38546B5B658C5F381CCD5E62AC24472D5A6D2/" width="100%">
 
 ## Installation
-1. Clone this repository with Github desktop or with the terminal.
+1. Clone this repository with Github desktop. If you are going to do this in the terminal prompt  type in " `git clone https://github.com/Tartaros1/Plain-News.git`
 2. Start a localhost in the folder you have downloaded this project.
 Type php -S localhost:(type any 4 digits in here)
 3. Go to your browser and in the URL type in localhost:(the 4 digits)

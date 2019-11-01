@@ -16,6 +16,7 @@ usort($articles, "Sortbydate")
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/Images/news3.png" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
 </head>
 
     <main class="main-content">
@@ -28,16 +29,16 @@ usort($articles, "Sortbydate")
         <section class="article">
             <?php foreach ($articles as $i => $article) :?>
 
-            <?php 
+            <?php
         		$title = $article["title"];
                 $image = $article["image"];
                 $content = $article["content"];
                 $authorName = $authors[$article['authorId']]['name'];
-                $authorImage = $authors[$article['authorId']]['authimage'];                        
+                $authorImage = $authors[$article['authorId']]['authimage'];
                 $published = $article["published"];
                 $likes = $article["likes"];
             ?>
-            
+
         <article id="<?php echo $i; ?>">
         <h3><?php echo $title; ?> </h3>
         <p class="Publishedinfo">Published <?php echo $published ?></p>
@@ -59,6 +60,6 @@ usort($articles, "Sortbydate")
         </section>
     </main>
 <body>
-    
+
 </body>
 </html>

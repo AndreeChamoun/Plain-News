@@ -1,4 +1,4 @@
 const date = new Date();
-const currentDate = `${date.getFullYear()} - ${date.getMonth() + 1} - ${date.getDate()}`;
+const today_date = `${date.getFullYear()} - ${date.getMonth() + 1} - ${date.getDate()}`;
 
-document.body.querySelector(".current-date").innerHTML = `Today's date: ${currentDate}`;
+document.body.querySelector(".today_date").innerHTML = `Today's date: ${today_date}`;

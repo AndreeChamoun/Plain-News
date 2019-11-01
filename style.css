@@ -43,7 +43,7 @@ h3 {
 	text-transform: uppercase;
 }
 
-p.currentDate {
+p.today_date {
 	font-family: "Roboto";
 	color: white;
 	font-weight: 100;
@@ -55,7 +55,7 @@ p {
 	font-family: "font-family: 'PT Serif', serif;";
 }
 
-p.contentParagraph {
+p.contentPara {
 	max-width: 800px;
 }
 
@@ -77,36 +77,20 @@ p.authorName {
 	font-size: xx-large;
 }
 
-.navParagraph {
+.navpara {
 	font-family: "Roboto";
 	color: white;
 }
 
-.publishedParagraph {
+.publishedpara {
 	font-family: "Roboto";
 	font-weight: 300;
 	font-size: 12px;
 }
 
-/* IMAGES  */
-
-.arrows {
-	align-self: center;
-	margin-right: 30px;
-}
-
-.down-arrow {
-	width: 50px;
-	height: 50px;
-}
-
 .authorImage {
 	object-fit: cover;
 	border-radius: 100%;
-}
-
-.last-article {
-	transform: rotate(180deg);
 }
 
 @media screen and (max-width: 600px) {
@@ -128,7 +112,7 @@ p.authorName {
 		align-items: center;
 	}
 
-	.navParagraph {
+	.navpara {
 		font-weight: 300;
 	}
 
@@ -161,7 +145,7 @@ p.authorName {
 		align-items: center;
 	}
 
-	.navParagraph {
+	.navpara {
 		font-weight: 300;
 	}
 
@@ -205,7 +189,7 @@ p.authorName {
 		align-items: center;
 	}
 
-	.navParagraph {
+	.navpara {
 		font-weight: 300;
 	}
 
@@ -254,7 +238,7 @@ p.authorName {
 		align-items: center;
 	}
 
-	.navParagraph {
+	.navpara {
 		font-weight: 300;
 	}
 
@@ -301,7 +285,7 @@ p.authorName {
 		align-items: center;
 	}
 
-	.navParagraph {
+	.navpara {
 		font-weight: 300;
 	}
 

@@ -21,9 +21,9 @@ usort($articles, "Sortbydate")
 
     <main class="main-content">
         <nav>
-            <p class="today_date">
+            <p class="today_date"></p>
             <h1>The Leek of the Week</h1>
-            </p class="news_title"> Totally real news site with real news
+            <p class="news_title"> Totally real news site with real news</p>
         </nav>
 
         <section class="article">

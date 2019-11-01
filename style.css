@@ -1,3 +1,338 @@
+/* FONTS  */
+
+
 html {
 	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+	background: rgb(203,200,255);
+	background: linear-gradient(90deg, rgba(203,200,255,1) 0%, rgba(255,255,255,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+nav {
+	margin:0;
+	background: rgb(238,174,202);
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.authorWrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+article {
+	position: relative;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	background-color: #e4e4e4;
+	
+}
+
+/* TEXT  */
+
+h1 {
+	font-family: "Playfair Display";
+	margin-bottom: 0;
+	color: black;
+}
+
+h3 {
+	width: 60%;
+	font-family: "Playfair Display";
+	text-transform: uppercase;
+}
+
+p.currentDate {
+	font-family: "Roboto";
+	color: white;
+	font-weight: 100;
+	align-self: flex-end;
+	margin: 20px 20px 0 0;
+}
+
+p {
+	font-family: "Playfair Display";
+}
+
+p.contentParagraph {
+	max-width: 800px;
+}
+
+.likescontainer {
+	display: flex;
+
+}
+
+.likecounter {
+	font-family: "Roboto";
+	text-align: center;
+	margin-top: 2px;
+}
+
+p.authorName {
+	font-family: "Roboto";
+	text-align: center;
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+.navParagraph {
+	font-family: "Roboto";
+	color: white;
+}
+
+.publishedParagraph {
+	font-family: "Roboto";
+	font-weight: 300;
+	font-size: 12px;
+}
+
+/* IMAGES  */
+
+.arrows {
+	align-self: center;
+	margin-right: 30px;
+}
+
+.down-arrow {
+	width: 50px;
+	height: 50px;
+}
+
+.authorImage {
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+.last-article {
+	transform: rotate(180deg);
+}
+
+@media screen and (max-width: 600px) {
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	article {
+		width: 80%;
+		border-bottom: 1px solid black;
+	}
+
+	.articleWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.navParagraph {
+		font-weight: 300;
+	}
+
+	.articleImage {
+		width: 100%;
+		height: auto;
+	}
+
+	.likecounter {
+		width: 25px;
+		height: auto;
+	}
+
+	.authorName {
+		margin: 50px 0 0 0;
+	}
+
+	.authorImage {
+		width: 80px;
+		height: 80px;
+	}
+
+}
+
+@media only screen and (min-width: 600px) {
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.navParagraph {
+		font-weight: 300;
+	}
+
+	article {
+		width: 80%;
+		border-bottom: 1px solid black;
+	}
+
+	.articleWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.articleImage {
+		width: 90%;
+		height: auto;
+	}
+
+	.likecounter {
+		width: 25px;
+		height: auto;
+	}
+
+	.authorName {
+		margin: 50px 0 0 0;
+	}
+
+	.authorImage {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@media only screen and (min-width: 770px) {
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.navParagraph {
+		font-weight: 300;
+	}
+
+	article {
+		margin: 0 auto;
+		width: 90%;
+		max-width: 800px;
+	}
+
+	.articleWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.articleImage {
+		width: 80%;
+		height: auto;
+	}
+
+	.likecounter {
+		width: 25px;
+		height: auto;
+	}
+
+	.authorName {
+		margin: 50px 0 0 0;
+	}
+
+	.authorImage {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.navParagraph {
+		font-weight: 300;
+	}
+
+	article {
+		position: relative;
+		border-radius: 10px;
+		padding: 10px;
+		margin-top: 20px;
+		background-color: #e4e4e4;
+	}
+
+	.articleWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.articleImage {
+		width: 80%;
+		height: auto;
+	}
+
+	.likecounter {
+		width: 25px;
+		height: auto;
+	}
+
+	.authorName {
+		margin: 50px 0 0 0;
+	}
+
+	.authorImage {
+		width: 90px;
+		height: 90px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.navParagraph {
+		font-weight: 300;
+	}
+
+	article {
+		width: 70%;
+		border-bottom: 1px solid black;
+	}
+
+	.articleWrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	.articleImage {
+		width: 80%;
+		height: auto;
+	}
+
+	.likecounter {
+		width: 25px;
+		height: auto;
+	}
+
+	.authorName {
+		margin: 50px 0 0 0;
+	}
+
+	.authorImage {
+		width: 100px;
+		height: 100px;
+	}
 }

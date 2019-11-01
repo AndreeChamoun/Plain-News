@@ -17,3 +17,10 @@ Type php -S localhost:(type any 4 digits in here)
 - JavaScript
 - CSS
 - HTML
+
+## Testers
+Bernhard Stedt<br>
+Mark Dela Cruz
+
+## Code review
+Jakob Fridmar
